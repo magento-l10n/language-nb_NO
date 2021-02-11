@@ -1,6 +1,6 @@
 {
     "name": "community-engineering/language-nb_no",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "magento2-language",
     "description": "nb_NO language package.",
     "license": [
