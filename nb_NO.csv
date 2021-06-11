@@ -48,6 +48,7 @@ notice,varsel
 Close,Lukk
 "See All (","Se alle ("
 " unread)"," uleste)"
+"System Messages",Systemmeldinger
 "Show Toolbar","Vis verktøylinje"
 "Show List","Vis liste"
 "Use HTTPS to Get Feed","Bruk HTTPS for å få tjener"
@@ -261,6 +262,11 @@ Retry,"Prøv på nytt"
 "'Action Details - #' .","'Handlingsdetaljer - #'."
 "%1 item(s) have been scheduled for update.""","%1 vare(r) er nå planlagt for oppdatering."""
 "Bulk Actions Log","Logg for massebehandling"
+"Bulk uuid %bulkUuid not exist","Bulk uuid %bulkUuid eksisterer ikke"
+"Topic %1","Emne %1"
+"Something went wrong while processing the request.","Noe gikk galt under arbeidet med denne forespørselen."
+"Error processing %key element of input data","Feil under behandling av % nøkkelelement fra inndata"
+"Sorry, something went wrong during product prices update. Please see log for details.","Beklager, noe gikk galt under oppdatering av produktpriser. Vennligst se loggen for detaljer."
 "%1 item(s) are currently being updated.","%1 vare(r) er under oppdatering."
 "Task ""%1"": ","Oppgave ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 vare(r) er nå planlagt for oppdatering."
@@ -275,6 +281,7 @@ Dismiss,Avbryt
 ", %1 failed to update",", %1 kunne ikke oppdatere"
 "Something went wrong.","Noe gikk galt."
 "Action Log",Handlingslogg
+Report,Rapport
 "Bulk Actions",Massehandlinger
 "Days Saved in Log","Dager lagret i loggen"
 "Description of Operation","Beskrivelse av operasjonen"
@@ -1014,17 +1021,32 @@ Fixed,Fast
 "What are you looking for?","Hva leter du etter?"
 "Use Default Value","Bruk standardverdi"
 "There is no defined renderer for ""%1"" option type.","Det er ingen definert renderer for alternativtypen ""%1""."
+"This is implemented for bundle products only.","Dette er implementert kun for buntprodukter."
+"The product with the ""%1"" SKU isn't a bundle product.","Produktet med ""%1"" SKU er ikke en pakke."
+"The bundle product can't contain another composite product.","Pakkeproduktet kan ikke inneholde et annet komposittprodukt."
+"The product link needs an ID field entered. Enter and try again.","Produktlinken trenger et ID-felt angitt. Angi og prøv på nytt."
+"The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","Klarte ikke finne regelen med ID ""%1"". Valider IDen og prøv igjen."
 "Could not save child: ""%1""","Kunne ikke lagre barn: ""%1"""
+"Product with specified sku: ""%1"" does not contain option: ""%2""","Produkt med angitt sku: ""%1"" inneholder ikke alternativ: ""%2"""
+"Child with specified sku: ""%1"" already assigned to product: ""%2""","Sku: ""%1"" er allerede tildelt produkt: ""%2"""
+"The bundle product doesn't exist. Review your request and try again.","Pakkeproduktet finnes ikke. Se gjennom forespørselen og prøv på nytt."
+"The option that was requested doesn't exist. Verify the entity and try again.","Forespurt alternativ eksisterer ikke. Verifiser at dette eksisterer og prøv igjen."
+"The option couldn't be saved.","Alternativet kunne ikke bli lagret."
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" må fylles ut. Skriv inn og prøv på nytt."
+"The option with ""%1"" ID can't be deleted.","Alternativet med ""%1"" ID kan ikke slettes."
 "Price Range",Prisområde
 "As Low as","Så lav som"
 Together,Sammen
 Separately,Separat
+"Please specify product option(s).","Angi alternativ(er) for produktet."
 "The options you selected are not available.","Alternativet du har valgt er ikke tilgjengelig."
 "The required options you selected are not available.","De nødvendige alternativene du har valgt er ikke tilgjengelig."
 "Please select all required options.","Vennligst velg alle nødvendige alternativ."
+"Option type (%types) should have only one element.","Alternativ type (%type) kan bare ha ett element."
 "We can't add this item to your shopping cart right now.","Vi kan ikke legge produkt til handlekurven akkurat nå."
 N/A,I/T
 Percent,Prosent
+"We can't save custom-defined options for bundles with dynamic pricing.","Vi kan ikke lagre tilpasningsdefinerte alternativer for pakker med dynamisk prising."
 "Add Selected Products","Legg til merkede produkter"
 "Add Option","Legg til alternativ"
 "New Option","Nytt alternativ"
@@ -1073,6 +1095,7 @@ Message:,Melding:
 "Qty Shipped","Antall sendt"
 "Add Products to New Option","Legge produkter til nytt alternativ"
 "Add Products to Option ""%1""","Legge til produkter i alternativ ""%1"""
+"Special Price",Spesialpris
 """option_id"" and ""parent_id"" values should be specified","""option_id"" og ""parent_id"" verdier bør spesifiseres"
 """sku"" value should be specified","""sku"" verdi bør spesifiseres"
 Always,Alltid
@@ -1502,7 +1525,6 @@ Role,Rolle
 "start typing to search attribute","begynn å skrive for å søke etter kategori"
 "Basic Settings","Grunnleggende innstillinger"
 "Advanced Settings","Avanserte innstillinger"
-"Special Price",Spesialpris
 "Buy %1 for: ","Kjøpt %1 for: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Kjøp %1 for %2 pr. stk. og <strong class=""benefit"">spar<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Kjøp %1 for %2 pr. stk."
@@ -3293,7 +3315,6 @@ items,elementer
 "The item was deleted","Elementet ble slettet"
 "All Users","Alle brukere"
 "Admin Actions Log","Admin handlingslogg"
-Report,Rapport
 "%1 & applied","%1 & brukt"
 "Attributes Updated","Attributter oppdatert"
 "Currency Rates Saved","Valutakurser lagret"
