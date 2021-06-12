@@ -1,7 +1,9 @@
 All,Alle
 None,Ingen
 "Allowed Scopes","Tillatte områder"
+"More permissions are needed to delete the ""%1"" item.","Flere tillatelser er nødvendig for å slette elementet ""%1""."
 "You need more permissions to apply some of the rule updates.","Du trenger flere tillatelser for å utføre noen av regeloppdateringene."
+"More permissions are needed to view this item.","Flere tillatelser nødvendig for å vise dette elementet."
 "More permissions are needed to save this item.","Flere tillatelser nødvendig for å lagre dette elementet."
 "You need more permissions to access website ""%1"".","Du trenger flere tillatelser for å få tilgang til nettside ""%1""."
 "Role Scopes",Rolleområder
