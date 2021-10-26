@@ -90,6 +90,7 @@ Quantity,Antall
 "Products in the Comparison List (%1)","Produkter i sammenlignings-listen (%1)"
 "Last ordered items (%1)","Siste bestilte varer (%1)"
 Products,Produkter
+ID,Id
 SKU,Varenummer
 "Recently Compared Products (%1)","Nylig sammenlignede produkter (%1)"
 "Recently Viewed Products (%1)","Nylig viste produkter (%1)"
@@ -108,12 +109,12 @@ Configure,Konfigurer
 "You must buy at least %1 of these per purchase.","Du må kjøpe minst %1 av disse per innkjøp."
 "Specify the product's options.","Angi alternativ for produktet."
 "Alert me when this item is available.","Varsle meg når dette produkt er tilgjengelig."
-"This customer couldn't be found. Verify the customer and try again.","Denne kunden ble ikke funnet. Kontroller kunden og prøv igjen."
+"This customer couldn't be found. Verify the customer and try again.","Denne kunden kunne ikke bli funnet. Vennligst verifiser og prøv igjen."
 "Shopping cart management is disabled for this customer.","Administrasjon av handlekurv er deaktivert for denne kunden."
-"This store couldn't be found. Verify the store and try again.","Denne butikken ble ikke funnet. Kontroller butikken, og prøv på nytt."
+"This store couldn't be found. Verify the store and try again.","Denne butikken ble ikke funnet. Vennligst kontroller at butikken eksisterer og prøv igjen."
 Customers,Kunder
 "Shopping Cart",Handlekurv
-"An error occurred. For details, see the error log.","En feil har oppstått. For detaljer, se feil-loggen."
+"An error occurred. For details, see the error log.","En feil har desverre oppstått. Vennligst sjekk feiloggen for nærmere informasjon."
 "You do not have access to this.","Du har ikke tilgang til dette."
 "Orders can only be completed in an active store. Verify the store and try again.","Bestillinger kan kun fullføres i en aktiv butikk. Bekreft butikken å prøv igjen."
 "The ordered item needs to be loaded. Load the item and try again.","Den bestilte varen må lastes. Last inn elementet, og prøv på nytt."
@@ -151,7 +152,7 @@ Customers,Kunder
 "Yes, for Specified Customer Groups","Ja, for angitte kundegrupper"
 "Yes, for Everyone","Ja, for alle"
 No,Nei
-"The file is corrupt and can't be used.","Filen er skadet og kan ikke brukes."
+"The file is corrupt and can't be used.","Filen er korrupt og kan desverre ikke brukes."
 "Please upload the file in .csv format.","Vennligst opplast filen i .csv format."
 "%1 item(s) need your attention.","%1 element(er) krever din oppmerksomhet."
 "Apply Coupon Code","Bruk kupongkode"
@@ -186,6 +187,7 @@ Edit,Redigere
 "Remove item","Fjern produkt"
 "Products Requiring Attention","Produkter som krever din oppmerksomhet"
 "Add to Cart","Legg i handlekurv"
+Sku,Varenr.
 File,Fil
 "File extensions allowed: .csv","Tillatte filformater: .csv"
 "Add Row","Legg til rad"
@@ -261,6 +263,7 @@ Configuration,Innstillinger
 "BI Essentials","BI  Enkel"
 "Advanced Reporting Service","Avansert rapporteringstjeneste"
 "Time of day to send data","Tiden på dagen for å sende data"
+"Industry Data","Industri Data"
 Industry,Industri
 "In order to personalize your Advanced Reporting experience, please select your industry.","For å tilpasse opplevelsen avansert rapportering, velg din bransje."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Få mer innsikt fra Magento bedriftsinformasjon</strong>"
@@ -282,6 +285,7 @@ Industry,Industri
 "Pet Goods","Kjæledyr utstyr"
 "Pharma and Medical Devices","Farmasøytisk og medisinsk utstyr"
 "Technology B2B","Teknologi B2B"
+Other,Annet
 Done,Utført
 Retry,"Prøv på nytt"
 "'Action Details - #' .","'Handlingsdetaljer - #'."
@@ -308,6 +312,7 @@ Dismiss,Avbryt
 "Action Log",Handlingslogg
 Report,Rapport
 "Bulk Actions",Massehandlinger
+"Action Logs",Handlingslogg
 "Days Saved in Log","Dager lagret i loggen"
 "Description of Operation","Beskrivelse av operasjonen"
 Summary,Sammendrag
@@ -392,6 +397,7 @@ Debug,Feilsøk
 "Unable to place order. Please try again later.","Kan ikke ta imot bestilling. Prøv igjen senere."
 "A server error stopped your order from being placed. Please try to place your order again.","En serverfeil stoppet bestillingen fra blir gjennomført. Prøv å bestille igjen."
 "The transaction details are unavailable. Please try again later.","Transaksjonsdetaljer er ikke tilgjengelige. Prøv igjen senere."
+"Signature Key","Signatur nøkkel"
 Environment,Miljø
 "Transaction has been declined. Please try again later.","Transaksjonen er avslått. Prøv igjen senere."
 options,innstillinger
